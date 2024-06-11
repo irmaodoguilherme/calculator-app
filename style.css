@@ -1,0 +1,23 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.fs-7 {
+  font-size: 7rem;
+}
+
+.w-28 {
+  width: 28%;
+}
+
+.cstm-btn {
+  width: 4rem;
+  height: 4rem;
+}
+
+.zero-btn {
+  width: 15rem;
+  height: 4rem;
+}
