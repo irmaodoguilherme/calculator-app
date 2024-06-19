@@ -8,16 +8,39 @@
   font-size: 7rem;
 }
 
-.w-28 {
-  width: 28%;
+.mw-4r {
+  min-width: 4rem;
 }
 
-.cstm-btn {
-  width: 4rem;
-  height: 4rem;
+.mw-22r {
+  max-width: 22rem;
 }
 
-.zero-btn {
-  width: 15rem;
-  height: 4rem;
+.mw-21r {
+  max-width: 21rem;
+}
+
+.mh-4r {
+  min-height: 4rem;
+}
+
+.btn-cstm {
+  min-height: 4rem;
+}
+
+.m-inline {
+  margin-inline: auto;
+}
+
+.mw-14r {
+  max-width: 14rem;
+}
+
+.text-sign {
+  color: rgb(255 0 255);
+}
+
+.text-sign:hover {
+  color: rgb(255 0 255);
+  box-shadow: 0rem 0rem 1rem rgb(255 0 255);
 }
