@@ -11,7 +11,7 @@ Uma calculadora capaz de realizar cálculos mátemáticos básicos. Atualmente s
 
 <h2 id="como-acessar">Como acessar</h2>
 
-Você pode acessá-lo [aqui](calculator-gal.netlify.app/) ou através do link na seção 'About'.
+Você pode acessá-lo [aqui](https://calculator-gal.netlify.app/) ou através do link na seção 'About'.
 
 
 <h2 id="como-usá-la">Como usá-la</h2>
