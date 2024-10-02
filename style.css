@@ -4,16 +4,8 @@
   box-sizing: border-box;
 }
 
-.fs-7 {
-  font-size: 7rem;
-}
-
 .mw-4r {
   min-width: 4rem;
-}
-
-.mw-22r {
-  max-width: 22rem;
 }
 
 .mw-21r {
@@ -21,10 +13,6 @@
 }
 
 .mh-4r {
-  min-height: 4rem;
-}
-
-.btn-cstm {
   min-height: 4rem;
 }
 
@@ -43,4 +31,12 @@
 .text-sign:hover {
   color: rgb(255 0 255);
   box-shadow: 0rem 0rem 1rem rgb(255 0 255);
+}
+
+.maxw-22r {
+  max-width: 22rem;
+}
+
+.fs-7r {
+  font-size: 7rem;
 }

@@ -23,7 +23,7 @@ const mathOperations = {
   '×': multiply,
   '+': sum,
   '−': subtract,
-  ',': percentage
+  '%': percentage
 }
 
 const clearMath = ([, inputMath]) => {
