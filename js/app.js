@@ -1,5 +1,4 @@
 const calculator = document.querySelector('[data-js="calculator"]')
-const html = window
 
 const handleCalculatorClick = async e => {
   const clickedElement = e.target
@@ -51,4 +50,4 @@ const handleShortcutKeys = async e => {
 }
 
 calculator.addEventListener('click', handleCalculatorClick)
-html.addEventListener('keyup', handleShortcutKeys)
+window.addEventListener('keyup', handleShortcutKeys)
