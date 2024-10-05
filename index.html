@@ -11,39 +11,37 @@
 </head>
 
 <body class="bg-black">
-  <div class="d-flex justify-content-center">
-    <div class="bg-dark bg-opacity-75 gap-3 pb-4 mw-4r maxw-22r">
-      <div data-js="calculator" class="d-flex flex-column gap-3 container p-0">
-        <input data-js="input-math" type="text"
-          class="text-center text-white bg-dark bg-opacity-75 border border-0 mb-2 fs-7r" readonly value="0">
-        <div class="m-inline d-flex justify-content-evenly flex-wrap gap-1 w-100 mw-21r">
-          <button class="mw-4r mh-4r btn border m-0 p-0 fs-2 text-sign">C</button>
-          <button class="mw-4r mh-4r btn border m-0 p-0 fs-2 text-sign">&LeftArrow;</button>
-          <button class="mw-4r mh-4r btn border m-0 p-0 fs-2 text-sign">&divide;</button>
-          <button class="mw-4r mh-4r btn border m-0 p-0 fs-2 text-sign">&times;</button>
-        </div>
-        <div class="m-inline d-flex justify-content-evenly flex-wrap gap-1 w-100 mw-21r">
-          <button class="mw-4r mh-4r btn border m-0 p-0 fs-2 text-white">7</button>
-          <button class="mw-4r mh-4r btn border m-0 p-0 fs-2 text-white">8</button>
-          <button class="mw-4r mh-4r btn border m-0 p-0 fs-2 text-white">9</button>
-          <button class="mw-4r mh-4r btn border m-0 p-0 fs-2 text-sign">&plus;</button>
-        </div>
-        <div class="m-inline d-flex justify-content-evenly flex-wrap gap-1 w-100 mw-21r">
-          <button class="mw-4r mh-4r btn border m-0 p-0 fs-2 text-white">4</button>
-          <button class="mw-4r mh-4r btn border m-0 p-0 fs-2 text-white">5</button>
-          <button class="mw-4r mh-4r btn border m-0 p-0 fs-2 text-white">6</button>
-          <button class="mw-4r mh-4r btn border m-0 p-0 fs-2 text-sign">&minus;</button>
-        </div>
-        <div class="m-inline d-flex justify-content-evenly flex-wrap gap-1 w-100 mw-21r">
-          <button class="mw-4r mh-4r btn border m-0 p-0 fs-2 text-white">1</button>
-          <button class="mw-4r mh-4r btn border m-0 p-0 fs-2 text-white">2</button>
-          <button class="mw-4r mh-4r btn border m-0 p-0 fs-2 text-white">3</button>
-          <button class="mw-4r mh-4r btn border m-0 p-0 fs-2 text-sign">&equals;</button>
-        </div>
-        <div class="m-inline d-flex justify-content-evenly flex-wrap gap-1 w-100 mw-21r">
-          <button class="mw-4r mh-4r w-100 mw-14r btn border m-0 p-0 fs-2 text-white">0</button>
-          <button class="mw-4r mh-4r btn border m-0 p-0 fs-2 text-sign">&percnt;</button>
-        </div>
+  <div class="bg-dark bg-opacity-75 gap-3 pb-4 min-w-4r max-w-22r center-element max-h-fit">
+    <div data-js="calculator" class="d-flex flex-column gap-3 container p-0">
+      <input data-js="input-math" type="text"
+        class="text-center text-white bg-dark bg-opacity-75 border border-0 mb-2 fs-7r" readonly value="0">
+      <div class="m-inline d-flex justify-content-evenly flex-wrap gap-1 w-100 max-w-21r">
+        <button class="min-w-4r min-h-4r btn border m-0 p-0 fs-2 text-sign">C</button>
+        <button class="min-w-4r min-h-4r btn border m-0 p-0 fs-2 text-sign">&LeftArrow;</button>
+        <button class="min-w-4r min-h-4r btn border m-0 p-0 fs-2 text-sign">&divide;</button>
+        <button class="min-w-4r min-h-4r btn border m-0 p-0 fs-2 text-sign">&times;</button>
+      </div>
+      <div class="m-inline d-flex justify-content-evenly flex-wrap gap-1 w-100 max-w-21r">
+        <button class="min-w-4r min-h-4r btn border m-0 p-0 fs-2 text-white">7</button>
+        <button class="min-w-4r min-h-4r btn border m-0 p-0 fs-2 text-white">8</button>
+        <button class="min-w-4r min-h-4r btn border m-0 p-0 fs-2 text-white">9</button>
+        <button class="min-w-4r min-h-4r btn border m-0 p-0 fs-2 text-sign">&plus;</button>
+      </div>
+      <div class="m-inline d-flex justify-content-evenly flex-wrap gap-1 w-100 max-w-21r">
+        <button class="min-w-4r min-h-4r btn border m-0 p-0 fs-2 text-white">4</button>
+        <button class="min-w-4r min-h-4r btn border m-0 p-0 fs-2 text-white">5</button>
+        <button class="min-w-4r min-h-4r btn border m-0 p-0 fs-2 text-white">6</button>
+        <button class="min-w-4r min-h-4r btn border m-0 p-0 fs-2 text-sign">&minus;</button>
+      </div>
+      <div class="m-inline d-flex justify-content-evenly flex-wrap gap-1 w-100 max-w-21r">
+        <button class="min-w-4r min-h-4r btn border m-0 p-0 fs-2 text-white">1</button>
+        <button class="min-w-4r min-h-4r btn border m-0 p-0 fs-2 text-white">2</button>
+        <button class="min-w-4r min-h-4r btn border m-0 p-0 fs-2 text-white">3</button>
+        <button class="min-w-4r min-h-4r btn border m-0 p-0 fs-2 text-sign">&equals;</button>
+      </div>
+      <div class="m-inline d-flex justify-content-evenly flex-wrap gap-1 w-100 max-w-21r">
+        <button class="min-w-4r min-h-4r w-100 max-w-14r btn border m-0 p-0 fs-2 text-white">0</button>
+        <button class="min-w-4r min-h-4r btn border m-0 p-0 fs-2 text-sign">&percnt;</button>
       </div>
     </div>
   </div>

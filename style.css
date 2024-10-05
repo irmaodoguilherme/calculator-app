@@ -4,15 +4,15 @@
   box-sizing: border-box;
 }
 
-.mw-4r {
+.min-w-4r {
   min-width: 4rem;
 }
 
-.mw-21r {
+.max-w-21r {
   max-width: 21rem;
 }
 
-.mh-4r {
+.min-h-4r {
   min-height: 4rem;
 }
 
@@ -20,7 +20,7 @@
   margin-inline: auto;
 }
 
-.mw-14r {
+.max-w-14r {
   max-width: 14rem;
 }
 
@@ -33,10 +33,20 @@
   box-shadow: 0rem 0rem 1rem rgb(255 0 255);
 }
 
-.maxw-22r {
+.max-w-22r {
   max-width: 22rem;
 }
 
 .fs-7r {
   font-size: 7rem;
+}
+
+.center-element {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+}
+
+.max-h-fit {
+  max-height: fit-content;
 }
